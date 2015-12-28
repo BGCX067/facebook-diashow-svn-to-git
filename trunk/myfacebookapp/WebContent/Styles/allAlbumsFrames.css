@@ -1,0 +1,90 @@
+
+.jScrollPaneContainer
+{
+    position: absolute;
+    overflow: hidden;
+}
+
+.jScrollPaneTrack
+{
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background-image: url(../Images/allAlbumsFrame/no_background.png);
+}
+.jScrollPaneDrag
+{
+    position: absolute;
+    background-image: url(../Images/allAlbumsFrame/transparent_background.png);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#allAlbumsFrames
+{
+    overflow: auto;
+    width: 320px;
+    height: 200px;
+    background-image: url(../Images/allAlbumsFrame/no_background.png);
+}
+
+.transparent
+{
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.6;
+    -khtml-opacity: 0.6;
+    opacity: 0.6;
+}
+.albumFrameTop
+{
+    background-image: url(../Images/allAlbumsFrame/albumFrameTop.png);
+    width: 300px;
+    height: 10px;
+}
+.albumFrameCenter
+{
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    background-image: url(../Images/allAlbumsFrame/transparent_background.png);
+    width: 300px;
+}
+.albumFrameBottom
+{
+    background-image: url(../Images/allAlbumsFrame/albumFrameBottom.png);
+    width: 300px;
+    height: 10px;
+}
+.albumFrameCenter .albumFrameContent .albumFrameImage
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 75px;
+    float: left;
+}
+.albumFrameCenter .albumFrameContent
+{
+    color: White;
+    font-family: Tahoma;
+    font-size: 11px;
+    width: 300px;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+}
+.albumFrame
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.albumFrameContent .albumActionCell
+{
+    text-align: right;
+    vertical-align: text-top;
+}
+.albumFrameContent .albumActionCell a
+{
+    text-decoration: none;
+    color: White;
+}

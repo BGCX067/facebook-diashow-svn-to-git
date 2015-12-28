@@ -1,0 +1,129 @@
+@IMPORT url("searchField.css");
+
+.friendBox
+{
+    float: left;
+}
+
+.friendsFrame
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 170px;
+    width: 730px;
+    background-image: url("../Images/friendsFrame.png");
+}
+
+.friendsFrame .left
+{
+    width: 26px;
+    height: 170px;
+    background-position: 0px 0px;
+    background-image: url("../Images/leftSlider.png");
+}
+
+.friendsFrame .left:hover
+{
+    background-position: 26px 0px;
+    background-image: url("../Images/leftSlider.png");
+}
+
+.friendsFrame .middle
+{
+    width: 680px;
+    height: 168px;
+    position: relative;
+    left: 26px;
+    top: -170px;
+    overflow:hidden;
+    
+    padding-top: 2px;
+}
+
+.friendsFrame .right
+{
+    width: 26px;
+    height: 170px;
+    position: relative;
+    left: 704px;
+    top: -340px;
+    background-position: 26px 0px;
+    background-image: url("../Images/rightSlider.png");
+}
+.friendsFrame .right:hover
+{
+    width: 26px;
+    height: 170px;
+    position: relative;
+    left: 704px;
+    top: -340px;
+    background-position: 0px 0px;
+    background-image: url("../Images/rightSlider.png");
+}
+
+
+.friendsFrame .middle .slider
+{
+    width:3000000px;
+    position: absolute;
+}
+
+.friendsName {
+	font-family:Tahoma;
+	font-size:11px;
+	color: #3b5998;
+}
+/*______________________________________________________________*/
+
+.friendsImg
+{
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 140px;
+    float: left;
+    background-image: url("../Images/friendImgUpperLowerFrame.png");
+    background-repeat: repeat-x;
+}
+
+.friendsImg .leftFrame
+{
+    height: 140px;
+    width: 8px;
+    background-image: url("../Images/friendImgLeftFrame.png");
+    float: left;
+    position: relative;
+}
+
+.friendsImg .leftUpperLowerFrame
+{
+    height: 140px;
+    width: 8px;
+    float: left;
+    background-image: url("../Images/friendImgLeftUpperLowerFrame.png");
+}
+
+.friendsImg .rightUpperLowerFrame
+{
+    height: 140px;
+    width: 8px;
+    margin-left: -8px;
+    background-image: url("../Images/friendImgRightUpperLowerFrame.png");
+    float: right;
+    z-index: 5;
+}
+
+.friendsImg .rightFrame
+{
+    height: 140px;
+    width: 8px;
+    background-image: url("../Images/friendImgRightFrame.png");
+    float: right;
+}
+
+.friendsImg .content
+{
+    float: left;
+    height: 140px;
+    margin-top: 10px;
+    margin-left: -8px;
+}

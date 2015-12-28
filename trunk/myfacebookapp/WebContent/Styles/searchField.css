@@ -1,0 +1,54 @@
+@CHARSET "ISO-8859-1";
+
+#searchField {
+	width:259px;
+	height: 24px;	
+	visibility: hidden;
+	position: relative;
+	left:240px;
+	top:-190px;
+	padding-top:0px; 
+  	padding-left:15px; 
+  	padding-right:50px; 
+}
+
+#searchField .leftSearchField{
+	width: 4px;
+	height: 24px;
+	float:left;
+	background-repeat:no-repeat;
+	background-image: url("../Images/searchfield/leftSearchField1.png");
+}
+
+#searchField .middleSearchField{
+	width: 202px;
+	height: 24px;
+	float: left;
+}
+#searchField .middleSearchField .topSearchField{
+	width: 202px;
+	height: 1px;
+	background-repeat:no-repeat;
+	background-image: url("../Images/searchfield/UpperLowerPartSearchField.png");
+}
+
+#searchField .middleSearchField #InputSearchFeald{
+	width: 196px;
+	height: 17px;
+	float: left;
+}
+
+#searchField .middleSearchField .buttomSearchField{
+	width: 202px;
+	height: 1px;
+	background-repeat:no-repeat;
+	background-image: url("../Images/searchfield/sUpperLowerPartSearchField.png");
+}
+
+#searchField .rightSearchField{
+	width: 53px;
+	height: 24px;
+	float:right;
+	background-repeat:no-repeat;
+	background-image: url("../Images/searchfield/searchButton.png");
+	}
